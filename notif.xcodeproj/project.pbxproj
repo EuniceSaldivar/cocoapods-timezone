@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5253DC851B3ADDAA0084BF07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5253DC841B3ADDAA0084BF07 /* Foundation.framework */; };
+		5253DC871B3ADDAA0084BF07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5253DC861B3ADDAA0084BF07 /* CoreGraphics.framework */; };
+		5253DC891B3ADDAA0084BF07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5253DC881B3ADDAA0084BF07 /* UIKit.framework */; };
+		5253DC8F1B3ADDAA0084BF07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5253DC8D1B3ADDAA0084BF07 /* InfoPlist.strings */; };
+		5253DC911B3ADDAA0084BF07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5253DC901B3ADDAA0084BF07 /* main.m */; };
+		5253DC951B3ADDAA0084BF07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5253DC941B3ADDAA0084BF07 /* AppDelegate.m */; };
+		5253DC981B3ADDAA0084BF07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5253DC961B3ADDAA0084BF07 /* Main.storyboard */; };
+		5253DC9B1B3ADDAA0084BF07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5253DC9A1B3ADDAA0084BF07 /* ViewController.m */; };
+		5253DC9D1B3ADDAA0084BF07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5253DC9C1B3ADDAA0084BF07 /* Images.xcassets */; };
+		5253DCA41B3ADDAA0084BF07 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5253DCA31B3ADDAA0084BF07 /* XCTest.framework */; };
+		5253DCA51B3ADDAA0084BF07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5253DC841B3ADDAA0084BF07 /* Foundation.framework */; };
+		5253DCA61B3ADDAA0084BF07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5253DC881B3ADDAA0084BF07 /* UIKit.framework */; };
+		5253DCAE1B3ADDAA0084BF07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5253DCAC1B3ADDAA0084BF07 /* InfoPlist.strings */; };
+		5253DCB01B3ADDAA0084BF07 /* notifTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5253DCAF1B3ADDAA0084BF07 /* notifTests.m */; };
+		5281B96A1B43E4250001EA7B /* TimezoneAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5281B9691B43E4250001EA7B /* TimezoneAPIClient.m */; };
+		7A9466FB66262BA8C22C34A8 /* libPods-notif.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A05EAA35460021A611EDBEA /* libPods-notif.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5253DCA71B3ADDAA0084BF07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5253DC791B3ADDAA0084BF07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5253DC801B3ADDAA0084BF07;
+			remoteInfo = notif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15D75278F80A72528880B1DB /* Pods-notif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notif.release.xcconfig"; path = "Pods/Target Support Files/Pods-notif/Pods-notif.release.xcconfig"; sourceTree = "<group>"; };
+		5253DC811B3ADDAA0084BF07 /* notif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notif.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5253DC841B3ADDAA0084BF07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5253DC861B3ADDAA0084BF07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5253DC881B3ADDAA0084BF07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5253DC8C1B3ADDAA0084BF07 /* notif-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "notif-Info.plist"; sourceTree = "<group>"; };
+		5253DC8E1B3ADDAA0084BF07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5253DC901B3ADDAA0084BF07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5253DC921B3ADDAA0084BF07 /* notif-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "notif-Prefix.pch"; sourceTree = "<group>"; };
+		5253DC931B3ADDAA0084BF07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5253DC941B3ADDAA0084BF07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5253DC971B3ADDAA0084BF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5253DC991B3ADDAA0084BF07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5253DC9A1B3ADDAA0084BF07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5253DC9C1B3ADDAA0084BF07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5253DCA21B3ADDAA0084BF07 /* notifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notifTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5253DCA31B3ADDAA0084BF07 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5253DCAB1B3ADDAA0084BF07 /* notifTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "notifTests-Info.plist"; sourceTree = "<group>"; };
+		5253DCAD1B3ADDAA0084BF07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5253DCAF1B3ADDAA0084BF07 /* notifTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = notifTests.m; sourceTree = "<group>"; };
+		5281B9681B43E4250001EA7B /* TimezoneAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimezoneAPIClient.h; sourceTree = "<group>"; };
+		5281B9691B43E4250001EA7B /* TimezoneAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimezoneAPIClient.m; sourceTree = "<group>"; };
+		59FD723B2578D3B3F418F4D8 /* Pods-notif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notif.debug.xcconfig"; path = "Pods/Target Support Files/Pods-notif/Pods-notif.debug.xcconfig"; sourceTree = "<group>"; };
+		9A05EAA35460021A611EDBEA /* libPods-notif.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-notif.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5253DC7E1B3ADDAA0084BF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5253DC871B3ADDAA0084BF07 /* CoreGraphics.framework in Frameworks */,
+				5253DC891B3ADDAA0084BF07 /* UIKit.framework in Frameworks */,
+				5253DC851B3ADDAA0084BF07 /* Foundation.framework in Frameworks */,
+				7A9466FB66262BA8C22C34A8 /* libPods-notif.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5253DC9F1B3ADDAA0084BF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5253DCA41B3ADDAA0084BF07 /* XCTest.framework in Frameworks */,
+				5253DCA61B3ADDAA0084BF07 /* UIKit.framework in Frameworks */,
+				5253DCA51B3ADDAA0084BF07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5253DC781B3ADDAA0084BF07 = {
+			isa = PBXGroup;
+			children = (
+				5253DC8A1B3ADDAA0084BF07 /* notif */,
+				5253DCA91B3ADDAA0084BF07 /* notifTests */,
+				5253DC831B3ADDAA0084BF07 /* Frameworks */,
+				5253DC821B3ADDAA0084BF07 /* Products */,
+				9D36A606B722759C9C529031 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5253DC821B3ADDAA0084BF07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5253DC811B3ADDAA0084BF07 /* notif.app */,
+				5253DCA21B3ADDAA0084BF07 /* notifTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5253DC831B3ADDAA0084BF07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5253DC841B3ADDAA0084BF07 /* Foundation.framework */,
+				5253DC861B3ADDAA0084BF07 /* CoreGraphics.framework */,
+				5253DC881B3ADDAA0084BF07 /* UIKit.framework */,
+				5253DCA31B3ADDAA0084BF07 /* XCTest.framework */,
+				9A05EAA35460021A611EDBEA /* libPods-notif.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5253DC8A1B3ADDAA0084BF07 /* notif */ = {
+			isa = PBXGroup;
+			children = (
+				5253DC931B3ADDAA0084BF07 /* AppDelegate.h */,
+				5253DC941B3ADDAA0084BF07 /* AppDelegate.m */,
+				5253DC961B3ADDAA0084BF07 /* Main.storyboard */,
+				5253DC991B3ADDAA0084BF07 /* ViewController.h */,
+				5253DC9A1B3ADDAA0084BF07 /* ViewController.m */,
+				5281B9681B43E4250001EA7B /* TimezoneAPIClient.h */,
+				5281B9691B43E4250001EA7B /* TimezoneAPIClient.m */,
+				5253DC9C1B3ADDAA0084BF07 /* Images.xcassets */,
+				5253DC8B1B3ADDAA0084BF07 /* Supporting Files */,
+			);
+			path = notif;
+			sourceTree = "<group>";
+		};
+		5253DC8B1B3ADDAA0084BF07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5253DC8C1B3ADDAA0084BF07 /* notif-Info.plist */,
+				5253DC8D1B3ADDAA0084BF07 /* InfoPlist.strings */,
+				5253DC901B3ADDAA0084BF07 /* main.m */,
+				5253DC921B3ADDAA0084BF07 /* notif-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5253DCA91B3ADDAA0084BF07 /* notifTests */ = {
+			isa = PBXGroup;
+			children = (
+				5253DCAF1B3ADDAA0084BF07 /* notifTests.m */,
+				5253DCAA1B3ADDAA0084BF07 /* Supporting Files */,
+			);
+			path = notifTests;
+			sourceTree = "<group>";
+		};
+		5253DCAA1B3ADDAA0084BF07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5253DCAB1B3ADDAA0084BF07 /* notifTests-Info.plist */,
+				5253DCAC1B3ADDAA0084BF07 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D36A606B722759C9C529031 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59FD723B2578D3B3F418F4D8 /* Pods-notif.debug.xcconfig */,
+				15D75278F80A72528880B1DB /* Pods-notif.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5253DC801B3ADDAA0084BF07 /* notif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5253DCB31B3ADDAA0084BF07 /* Build configuration list for PBXNativeTarget "notif" */;
+			buildPhases = (
+				35369570579023AD9B372FDC /* Check Pods Manifest.lock */,
+				5253DC7D1B3ADDAA0084BF07 /* Sources */,
+				5253DC7E1B3ADDAA0084BF07 /* Frameworks */,
+				5253DC7F1B3ADDAA0084BF07 /* Resources */,
+				A02F0FDCA83204403F3772CF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = notif;
+			productName = notif;
+			productReference = 5253DC811B3ADDAA0084BF07 /* notif.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5253DCA11B3ADDAA0084BF07 /* notifTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5253DCB61B3ADDAA0084BF07 /* Build configuration list for PBXNativeTarget "notifTests" */;
+			buildPhases = (
+				5253DC9E1B3ADDAA0084BF07 /* Sources */,
+				5253DC9F1B3ADDAA0084BF07 /* Frameworks */,
+				5253DCA01B3ADDAA0084BF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5253DCA81B3ADDAA0084BF07 /* PBXTargetDependency */,
+			);
+			name = notifTests;
+			productName = notifTests;
+			productReference = 5253DCA21B3ADDAA0084BF07 /* notifTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5253DC791B3ADDAA0084BF07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jumpdigital;
+				TargetAttributes = {
+					5253DCA11B3ADDAA0084BF07 = {
+						TestTargetID = 5253DC801B3ADDAA0084BF07;
+					};
+				};
+			};
+			buildConfigurationList = 5253DC7C1B3ADDAA0084BF07 /* Build configuration list for PBXProject "notif" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5253DC781B3ADDAA0084BF07;
+			productRefGroup = 5253DC821B3ADDAA0084BF07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5253DC801B3ADDAA0084BF07 /* notif */,
+				5253DCA11B3ADDAA0084BF07 /* notifTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5253DC7F1B3ADDAA0084BF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5253DC9D1B3ADDAA0084BF07 /* Images.xcassets in Resources */,
+				5253DC8F1B3ADDAA0084BF07 /* InfoPlist.strings in Resources */,
+				5253DC981B3ADDAA0084BF07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5253DCA01B3ADDAA0084BF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5253DCAE1B3ADDAA0084BF07 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35369570579023AD9B372FDC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A02F0FDCA83204403F3772CF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-notif/Pods-notif-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5253DC7D1B3ADDAA0084BF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5253DC9B1B3ADDAA0084BF07 /* ViewController.m in Sources */,
+				5253DC951B3ADDAA0084BF07 /* AppDelegate.m in Sources */,
+				5281B96A1B43E4250001EA7B /* TimezoneAPIClient.m in Sources */,
+				5253DC911B3ADDAA0084BF07 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5253DC9E1B3ADDAA0084BF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5253DCB01B3ADDAA0084BF07 /* notifTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5253DCA81B3ADDAA0084BF07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5253DC801B3ADDAA0084BF07 /* notif */;
+			targetProxy = 5253DCA71B3ADDAA0084BF07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5253DC8D1B3ADDAA0084BF07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5253DC8E1B3ADDAA0084BF07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5253DC961B3ADDAA0084BF07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5253DC971B3ADDAA0084BF07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5253DCAC1B3ADDAA0084BF07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5253DCAD1B3ADDAA0084BF07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5253DCB11B3ADDAA0084BF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5253DCB21B3ADDAA0084BF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5253DCB41B3ADDAA0084BF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59FD723B2578D3B3F418F4D8 /* Pods-notif.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "notif/notif-Prefix.pch";
+				INFOPLIST_FILE = "notif/notif-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5253DCB51B3ADDAA0084BF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D75278F80A72528880B1DB /* Pods-notif.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "notif/notif-Prefix.pch";
+				INFOPLIST_FILE = "notif/notif-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5253DCB71B3ADDAA0084BF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/notif.app/notif";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "notif/notif-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "notifTests/notifTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5253DCB81B3ADDAA0084BF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/notif.app/notif";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "notif/notif-Prefix.pch";
+				INFOPLIST_FILE = "notifTests/notifTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5253DC7C1B3ADDAA0084BF07 /* Build configuration list for PBXProject "notif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5253DCB11B3ADDAA0084BF07 /* Debug */,
+				5253DCB21B3ADDAA0084BF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5253DCB31B3ADDAA0084BF07 /* Build configuration list for PBXNativeTarget "notif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5253DCB41B3ADDAA0084BF07 /* Debug */,
+				5253DCB51B3ADDAA0084BF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5253DCB61B3ADDAA0084BF07 /* Build configuration list for PBXNativeTarget "notifTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5253DCB71B3ADDAA0084BF07 /* Debug */,
+				5253DCB81B3ADDAA0084BF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5253DC791B3ADDAA0084BF07 /* Project object */;
+}
